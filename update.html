@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Producto</title>
+    <link rel="stylesheet" href="update.css">
+    <script src="https://agomcue486.github.io/lenguajes-de-marcas/GoogleSheetDataBase.js"></script>
+    <script src="update.js"></script>
+</head>
+<body>
+    <h1>Actualización de Productos</h1>
+
+
+
+    <table>
+        <tr>
+            <td><label for="key">ID del Producto a Modificar</label></td>
+            <td><input type="text" id="key" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="columnValue1">Nuevo Nombre: </label></td>
+            <td><input type="text" id="columnValue1" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="columnValue2">Nueva Marca: </label></td>
+            <td><input type="text" id="columnValue2" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="columnValue3">Nuevo Género: </label></td>
+            <td><input type="text" id="columnValue3" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="columnValue6">Nueva Imagen: </label></td>
+            <td><input type="text" id="columnValue6" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="columnValue7">Nuevo Precio: </label></td>
+            <td><input type="text" id="columnValue7" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="columnValue8">Nuevo Color: </label></td>
+            <td><input type="text" id="columnValue8" value=""></td>
+        </tr>
+    </table>
+
+    <button onclick="update();feedback()">Actualizar Producto</button>
+    
+</body>
+</html>

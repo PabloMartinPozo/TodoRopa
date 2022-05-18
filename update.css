@@ -1,0 +1,36 @@
+body {
+    background-color: #9A4694;
+    background-size: cover;
+}
+
+td {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:solid;
+    color: white;
+    padding-left: 30px;
+    font-weight: bold
+}
+
+button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.2s;
+    font-weight: bold;
+    background-color: #5C6BCB;
+    color: rgb(44, 24, 6);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 16px 8px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #666d81;
+    color: white;
+}
+
+h1{
+    text-decoration: underline;
+    color: #57C6C3;
+    padding-left: 30px
+}
