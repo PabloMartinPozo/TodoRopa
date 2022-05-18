@@ -1,0 +1,88 @@
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+body {
+    background-color: #9A4694;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #57C6C3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+a{
+    color: #57C6C3;
+}
+
+
+div.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+div.categoria {
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    flex-basis: 200px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.categoria:hover {
+    background-color: #5C6BCB;
+}
+
+div.categorias h1 {
+    color: #5A9AC9;
+}
+
+div.categorias h4 {
+    color: rgb(255, 255, 255);
+}
+
+div.tiendas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+div.tienda {
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    flex-basis: 200px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.tienda:hover {
+    background-color: #5C6BCB;
+}
+
+div.tiendas h1 {
+    color: #5A9AC9;
+}
+
+div.tiendas h4 {
+    color: rgb(255, 255, 255);
+}
+

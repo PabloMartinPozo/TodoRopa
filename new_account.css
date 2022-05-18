@@ -1,0 +1,17 @@
+body {
+    background-color: #9A4694;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: #57C6C3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    text-decoration: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}

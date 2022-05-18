@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://agomcue486.github.io/lenguajes-de-marcas/GoogleSheetDataBase.js"></script>
+    <title>Añadir Productos</title>
+    <link rel="stylesheet" href="insertarproductos.css">
+</head>
+
+<body>
+    <h1>Añada un Producto nuevo:</h1>
+    <table>
+        <tr>
+            <td>Marca</td>
+            <td><input type="text" id="Marca"></td>
+        </tr>
+        <tr>
+            <td>Nombre</td>
+            <td><input type="text" id="Modelo"></td>
+        </tr>
+        <tr>
+            <td>Precio</td>
+            <td><input type="text" id="Precio"> </td>
+        </tr>
+        <tr>
+            <td>Nombre fichero imagen (directorio)</td>
+            <td><input type="text" id="imagen"></td>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td><input type="text" id="Color"></td>
+        </tr>
+    </table>
+
+    <p>
+        <button onclick="insertarproducto();alerta()" id="btnInsertar">Añadir Prodcuto</button>
+    </p>
+
+    <script src="insertarproducto.js"></script>
+</body>
+
+</html>

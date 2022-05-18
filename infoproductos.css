@@ -1,0 +1,66 @@
+body {
+    background-color: #9A4694;
+    background-size: cover;
+}
+
+h1 {
+    text-align: left;
+    color: #57C6C3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+div.producto {
+    overflow: auto;
+    border: 6px outset #a08659;
+    width: 700px;
+}
+
+img  {
+    float: left;
+    margin-right: 25px;
+    width: 300px;
+    padding: 10px;
+}
+
+div.info {
+    overflow: auto;
+    color: #FFE3B3;
+}
+
+p#Precio {
+    color: #FFB072;
+}
+
+
+
+p#Color {
+    text-decoration: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.2s;
+    font-weight: bold;
+    background-color: #5C6BCB;
+    color: rgb(44, 24, 6);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 16px 8px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #666d81;
+    color: white;
+}
+
